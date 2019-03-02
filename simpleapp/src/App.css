@@ -10,21 +10,32 @@
   margin: 2rem;
   border: 0.2rem solid blue;
   font-size: 20px;
+  background-color: greenyellow;
+  cursor: pointer;
+  
 }
 .but2{
   margin: 2rem;
   border: 0.2rem solid blue;
   font-size: 20px;
+  background-color:aqua;
+  color:black;
+  cursor: pointer;
 }
 .but3{
   margin: 2rem;
   border: 0.2rem solid blue;
   font-size: 20px;
+  background-color: yellow;
+  cursor: pointer;
 }
 .but4{
   margin: 2rem;
   border: 0.2rem solid blue;
   font-size: 20px;
+  background-color: orange;
+  color:white;
+  cursor: pointer;
 }
 .title{
   color:red;
@@ -32,4 +43,5 @@
 .but0{
   border: 0.2rem solid gold;
   font-size: 30px;
+  cursor: move;
 }
