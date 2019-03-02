@@ -5,15 +5,17 @@ import React, { Component } from 'react'
        super(props)
      
        this.state = {
-          counter : 0
+          counter : 0,
+          title : "Change the count"
        }
      }
      
   render() {
-      const {counter}=this.state
+      const {counter,title}=this.state
     return (
       <div>
-        <h2>{counter}</h2>
+        <h1>{title}</h1>
+        <h1 className="count">{counter}</h1>
       </div>
     )
   }
