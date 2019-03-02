@@ -14,7 +14,18 @@ class Counter extends Component {
       counter: this.state.counter + 1
     });
   };
-
+  clickToDec = () => {
+    var valu = this.state.counter;
+    if (valu <= 0) {
+      return this.setState({
+        counter: 0
+      });
+    } else {
+      this.setState({
+        counter: this.state.counter - 2
+      });
+    }
+  };
 
   render() {
     const { counter, title } = this.state;
