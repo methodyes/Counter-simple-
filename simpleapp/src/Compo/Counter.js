@@ -26,6 +26,19 @@ class Counter extends Component {
       });
     }
   };
+  clickToMul=()=>{
+    this.setState({
+      counter: this.state.counter * 3
+
+    })
+  }
+  clickToDiv=()=>{
+    this.setState({
+      counter: this.state.counter / 4
+
+    })
+  }
+ 
 
   render() {
     const { counter, title } = this.state;
@@ -33,10 +46,13 @@ class Counter extends Component {
       <div>
         <h1>{title}</h1>
         <h1 className="count">{counter}</h1>
+        <div>
+        <button className="but0" onClick={this.clickToReset}>Reset</button> 
+        </div>
         <button className="but1" onClick={this.clickToInc}>INCREASE BY 1</button> 
         <button className="but2" onClick={this.clickToDec}>DECREASE BY 2</button>
-        <button className="but3" onClick={this.clickToInc}>MULTIPLY BY 1</button>
-        <button  className="but4" onClick={this.clickToInc}>INCREASE BY 1</button>
+        <button className="but3" onClick={this.clickToMul}>MULTIPLY BY 3</button>
+        <button  className="but4" onClick={this.clickToDiv}>DIVIDE BY 4</button>
       </div>
     );
   }
