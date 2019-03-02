@@ -4,16 +4,32 @@
 
 .count{
   font-size: 5rem;
+ 
 }
 .but1{
   margin: 2rem;
+  border: 0.2rem solid blue;
+  font-size: 20px;
 }
 .but2{
   margin: 2rem;
+  border: 0.2rem solid blue;
+  font-size: 20px;
 }
 .but3{
   margin: 2rem;
+  border: 0.2rem solid blue;
+  font-size: 20px;
 }
 .but4{
   margin: 2rem;
+  border: 0.2rem solid blue;
+  font-size: 20px;
+}
+.title{
+  color:red;
+}
+.but0{
+  border: 0.2rem solid gold;
+  font-size: 30px;
 }

@@ -6,7 +6,7 @@ class Counter extends Component {
 
     this.state = {
       counter: 1,
-      title: "Change the count"
+      title: "Change The Count"
     };
   }
   clickToInc = () => {
@@ -38,16 +38,20 @@ class Counter extends Component {
 
     })
   }
- 
+  clickToReset =()=>{
+    this.setState({
+      counter: 1
+    })
+  }
 
   render() {
     const { counter, title } = this.state;
     return (
       <div>
-        <h1>{title}</h1>
+        <h1 className="title">{title}</h1>
         <h1 className="count">{counter}</h1>
         <div>
-        <button className="but0" onClick={this.clickToReset}>Reset</button> 
+        <button className="but0" onClick={this.clickToReset}>RESET</button> 
         </div>
         <button className="but1" onClick={this.clickToInc}>INCREASE BY 1</button> 
         <button className="but2" onClick={this.clickToDec}>DECREASE BY 2</button>
