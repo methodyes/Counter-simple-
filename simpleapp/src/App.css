@@ -3,7 +3,9 @@
 }
 
 .count{
-  font-size: 5rem;
+  font-size: 7rem;
+  font-family: Georgia, serif ;
+ 
  
 }
 .but1{
@@ -38,10 +40,14 @@
   cursor: pointer;
 }
 .title{
-  color:red;
+  color:violet;
+  font-family: comic sans ms ;
 }
 .but0{
   border: 0.2rem solid gold;
+  background-color: red;
+  color: white;
+  border-radius: 50px;
   font-size: 30px;
   cursor: move;
 }
